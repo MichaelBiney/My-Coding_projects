@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f0e7b3;
+}
+
+.too-Do-List {
+    background-color: rgb(47, 2, 73);
+    color: white;
+    text-align: center; 
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.form-area {
+    background-color: rgb(76, 9, 116);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#list-input {
+    background-color: rgb(76, 9, 116);
+    border: none;
+    color: #000000;
+    outline: none;
+    padding: 10px;
+    max-width: 220px;
+    color: aliceblue;
+    width: 100%;
+}
+
+#list-input:focus {
+    border-bottom: 2px solid aliceblue;
+}
+
+.btn-list {
+    background-color: #bd5134;
+    color: white;
+    border: 2px solid #bd5134;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition-delay: 0.3s;
+}
+
+.btn-list:hover, .btn-list:focus {
+    content: "Add";
+    background-color: #cf694c;
+    border: 2px solid #cf694c;
+}
+
+.list-items > ul {
+    padding: inherit;
+}
+
+.list-items > ul > li {
+    list-style: none;
+    text-align: left;
+    background-color: #cf694c;
+    border-radius: 5px;
+    padding: 10px;
+    left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.list-items > ul > li:hover, .list-items > ul > li:focus {
+    cursor: pointer;
+    background-color: #e7856a;
+}
